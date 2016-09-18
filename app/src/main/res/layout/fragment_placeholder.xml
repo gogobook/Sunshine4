@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lee.sunshine4.PlaceholderFragment"
+    android:background="#5555aa">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="這是在placeholder內的文字"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="#cd8a33"/>
+
+    <ListView
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="379dp"
+        android:id="@+id/listView_forecast"
+
+        />
+</FrameLayout>
+<!--android:background="#cd8a33"-->

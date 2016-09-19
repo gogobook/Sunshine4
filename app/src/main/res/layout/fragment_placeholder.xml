@@ -6,20 +6,15 @@
     android:background="#5555aa">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="這是在placeholder內的文字"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        android:background="#cd8a33"/>
 
     <ListView
         android:layout_gravity="bottom|center"
         android:layout_width="wrap_content"
-        android:layout_height="379dp"
         android:id="@+id/listView_forecast"
+        android:background="#cd8a33"
+        android:layout_height="wrap_content"
 
-        />
+        android:footerDividersEnabled="false" />
 </FrameLayout>
 <!--android:background="#cd8a33"-->
+<!--android:divider="@color/accent_material_dark"-->
